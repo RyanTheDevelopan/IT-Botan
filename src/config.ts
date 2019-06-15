@@ -1,0 +1,31 @@
+export let config = {
+    "prefix": "ryan!",
+    "commands": [
+        "help",
+        "8ball",
+        "rules",
+        "ignorethatflower",
+        "greetings",
+        "testCommand",
+        "dme",
+        "hey",
+        "seeya",
+        "goodbye",
+        "wantsome",
+        "randomcommand",
+        "oof",
+        "teh-rules",
+        "kicc",
+        "ban",
+        "purge",
+        "sonicauroradownloadlinks",
+        "sonicaurora",
+        "sonicaurora2",
+        "sonicaurora3",
+        "sonicaurora4",
+        "askut",
+        "deltarunefanserver",
+        "underyan",
+        "yoshicult"
+    ]
+}
