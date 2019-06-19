@@ -24,6 +24,7 @@ export default class help implements IBotCommand {
             .addField("goodbye", "Wait, ur leaving?")
             .addField("8ball", "Use the 8ball.")
             .addField("diceroll", "Roll a die")
+            .addField("bot-info", "Info 'bout me, Ryan The Botan.")
             .addField("purge", "Purge the streets of messages that're in ur way.")
             .addField("kicc", "Kiccs a bad boi's ass")
             .addField("ban", "Summons the Ban Buster")
