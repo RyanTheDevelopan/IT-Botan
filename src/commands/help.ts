@@ -18,7 +18,6 @@ export default class help implements IBotCommand {
         runCommand(args: string[], msgObject: Discord.Message, client: Discord.Client): void {
             
             //Lets us know it all went well! *Insert thumbs up here*
-            msgObject.delete(0); 
             var embed = new Discord.RichEmbed()
             .addField("help", "Displays this message")
             .addField("hey", "Greet meh")

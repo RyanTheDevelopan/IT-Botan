@@ -26,5 +26,6 @@ export default class botinfo implements IBotCommand {
     .addField(`Status:`, `Online`) 
     .setThumbnail(`${client.user.avatar}`)     
     .setColor(0xff0000)
+    msgObject.channel.send(embed);
         }
     }
