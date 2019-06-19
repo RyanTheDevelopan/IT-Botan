@@ -26,6 +26,7 @@ export let config = {
         "askut",
         "deltarunefanserver",
         "underyan",
-        "yoshicult"
+        "yoshicult",
+        "bot-info"
     ]
 }
