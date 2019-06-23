@@ -32,7 +32,7 @@ export default class help implements IBotCommand {
             .setTitle("Ryan The Botan's Command List")
             .setAuthor(`${msgObject.author.username}`)
             .setThumbnail(`${msgObject.author.avatarURL}`)
-            .setFooter("Ur mom")
+            .setFooter("Thanks to myself for existing. Oh, and Demi's UT/DR/AU Text Box Generator too.")
             .setImage("https://cdn.discordapp.com/avatars/527118937473941504/d4ff963ab77427f7eb596ab93e421f27.png")
             .setColor(0xff0000)
             msgObject.channel.send(embed);
