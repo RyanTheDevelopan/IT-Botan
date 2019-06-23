@@ -5,15 +5,12 @@ import { IBotCommand } from './api';
 
 const client: Discord.Client = new Discord.Client();
 
-const http = require('http')
-
 let commands: IBotCommand[] = [];
-
 loadCommands(`${__dirname}/commands`)
 
 client.on("ready", () => {
     console.log("*In Spongebob* I'M READY!");
-    client.user.setActivity('Ryan The Botan | Beta? | ryan!help for help!')
+    client.user.setActivity('IT Botan | Beta? | ryan!help for help!')
 })
 
 
