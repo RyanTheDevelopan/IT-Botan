@@ -24,7 +24,7 @@ export default class botinfo implements IBotCommand {
     .addField(`Account Created`, `December 25, 2018`) 
     .addField(`User ID`, `527118937473941504`) 
     .addField(`Status:`, `Online`) 
-    .setThumbnail(`${client.user.avatar}`)     
+    .setThumbnail(`https://cdn.discordapp.com/avatars/527118937473941504/d4ff963ab77427f7eb596ab93e421f27.png`)     
     .setColor(0xff0000)
     msgObject.channel.send(embed);
         }
