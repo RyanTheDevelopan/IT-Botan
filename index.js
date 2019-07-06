@@ -17,7 +17,7 @@ let commands = [];
 loadCommands(`${__dirname}/commands`);
 client.on("ready", () => {
     console.log("*In Spongebob* I'M READY!");
-    client.user.setActivity('Ryan The Botan | Beta? | ryan!help for help!');
+    client.user.setActivity('IT Botan | Beta? | ryan!help for help!');
 });
 client.on("message", msg => {
     if (msg.author.bot) {
