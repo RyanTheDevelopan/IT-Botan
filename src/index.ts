@@ -13,6 +13,22 @@ client.on("ready", () => {
     client.user.setActivity('IT Botan | Beta? | ryan!help for help!')
 })
 
+// Create an event listener for new guild members
+client.on('guildMemberAdd', member => {
+    // Send the message to a designated channel on a server:
+    const channel = member.guild.channels.find(ch => ch.name === '👋🏻》welcome');
+    // Do nothing if the channel wasn't found on this server
+    if (!channel) return;
+    // Send the message, mentioning the member
+    channel.send(`:RyanSmirkNew:Heya ${member}. You're the ${client.users.size} user to join. Have a fun time here!:smirkingryan:`);
+});
+
+client.on("guildMemberRemove", member => {
+    const channel = member.guild.channels.find(ch => ch.name === '👋🏻》welcome')
+    if (!channel) return;
+    channel.send(`:SadRyanNew:Goodbye **${client.user.tag}** :wave:. Wish ya didn't leave, ur departure is only making this ded server more ded. :shrug: Aw well.:sadryan:`);
+});
+
 
 client.on("message", msg => {
     if (msg.author.bot) { return; }
