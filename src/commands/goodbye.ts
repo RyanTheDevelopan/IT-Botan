@@ -19,6 +19,6 @@ export default class testCommand implements IBotCommand {
             
             //What gets sent. (Oh no, it's short as hell)
             msgObject.channel.send(`${msgObject.author.toString()}`);
-            msgObject.channel.sendFile(`https://demirramon.com/gen/undertale_text_box.png?text=Oh%2C%20bye%20then.&box=undertale&boxcolor=white&character=custom&url=https%3A%2F%2Fi.imgur.com%2FPXmUvwH.png&charcolor=white&font=sans&asterisk=true&mode=regular.png`);
+            msgObject.channel.sendFile(`https://demirramon.com/gen/undertale_text_box.png?text=oh%2C%20bye%20then&box=undertale&boxcolor=white&character=custom&url=https%3A%2F%2Fi.imgur.com%2FPXmUvwH.png&charcolor=white&font=sans&asterisk=true&mode=regular.png`);
         }
     }
