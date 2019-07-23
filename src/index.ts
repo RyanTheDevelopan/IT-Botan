@@ -10,7 +10,7 @@ loadCommands(`${__dirname}/commands`)
 
 client.on("ready", () => {
     console.log("*In Spongebob* I'M READY!");
-    client.user.setActivity('IT Botan | Beta? | ryan!help for help!')
+    client.user.setActivity('IT Botan | Beta? | it!help for help!')
 })
 
 // Create an event listener for new guild members
@@ -26,7 +26,7 @@ client.on('guildMemberAdd', member => {
 client.on("guildMemberRemove", member => {
     const channel = member.guild.channels.find(ch => ch.name === '👋🏻goodbye-fellow-member')
     if (!channel) return;
-    channel.send(`:SadRyanNew:Goodbye **${client.user.tag}** :wave:. Wish ya didn't leave, ur departure is only making this ded server more ded. :shrug: Aw well.:sadryan:`);
+    channel.send(`<:SadRyanNew:582267298149040145>Goodbye ${member} :wave:. Wish ya didn't leave, ur departure is only making this ded server more ded. :shrug: Aw well.:sadryan:`);
 });
 
 

@@ -1,5 +1,5 @@
 export let config = {
-    "prefix": "ryan!",
+    "prefix": "it!",
     "commands": [
         "help",
         "8ball",
